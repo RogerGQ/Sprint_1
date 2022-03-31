@@ -9,19 +9,16 @@ class Employee {
           $this -> nombre = $nom;
           $this -> sueldo = $sou;
       }
-      public function print(){
-          return $this -> nombre;
-          return $this -> sueldo;
-      }
       public function printNombre(){
-        return $this -> nombre;
+          return $this -> nombre;
       }
       public function printSueldo(){
           return $this -> sueldo;
       }
+     
 }
 $persona = new Employee();
-$persona -> initialize ('Juan', 2500);
-echo $persona -> printNombre().' - '.$persona -> printSueldo();
+$persona -> initialize ('Juan', rand(0,10000)); 
+echo $persona -> printNombre().' - '.$persona -> printSueldo().'<br>';
 ?>
 
