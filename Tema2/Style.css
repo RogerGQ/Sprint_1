@@ -160,5 +160,12 @@ body{
     }
     .Box1_1{
         flex-wrap: wrap;
-        
+        display: block;
     }
+    .Box1_1_1{
+        flex-basis: 100%;
+    }
+    .Box1_1_2{
+        margin: 10px 0px;
+    }
+}
